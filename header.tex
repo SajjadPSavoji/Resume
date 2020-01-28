@@ -1,0 +1,40 @@
+\documentclass[letterpaper,8 pt]{article}
+\usepackage{titlesec}
+\usepackage[margin=0.3in]{geometry}
+\usepackage{longtable}
+\usepackage{marvosym}
+\usepackage{amsmath}
+
+\usepackage{underscore}
+\renewcommand{\familydefault}{\sfdefault}
+\renewcommand{\sfdefault}{ppl}
+
+\newcommand{\at}{\makeatletter @\makeatother}
+
+\usepackage{graphicx}
+\usepackage{tikz}
+\usepackage{tikzpagenodes}
+\usetikzlibrary{calc} 
+
+\titleformat{\section}{\large\scshape\raggedright}{}{1em}{}[\titlerule]
+\titlespacing{\section}{0pt}{3pt}{3pt}
+
+\begin{document}
+
+\begin{tikzpicture}[remember picture,overlay]
+\clip ($(current page text area.north east)!0.06!(current page text area.south east)!0.12!(current page text area.north west)$)
+  circle (2cm) node {\includegraphics[width=0.2\linewidth]{resumepic.jpg}};
+\end{tikzpicture}
+
+\pagenumbering{gobble}
+
+\par{ {\Huge \textbf{My name}} 
+\vspace{0.5cm}\par 
+\begin{tabular}{rl}
+    \textsc{Email:} & x_x\at gmail.com \\ 
+    \textsc{Phone:} & $xx \ xx \ 3x \ x5$ \\
+    \textsc{Location:} & xxx, Norway
+}{\end{tabular}}
+\vspace{0.3cm}
+\section{Education}
+\end{document}
