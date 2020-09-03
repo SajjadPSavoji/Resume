@@ -1,7 +1,8 @@
 # Fdb version 3
-["pdflatex"] 1580660818 "resume.tex" "/home/savoji/Desktop/resume/resume/resume.pdf" "resume" 1580660818
+["pdflatex"] 1598450976 "/home/savoji/Documents/resume/resume/resume.tex" "/home/savoji/Documents/resume/resume/resume.pdf" "resume" 1598450977
   "/etc/texmf/web2c/texmf.cnf" 1566486311 475 c0e671620eb5563b2130f56340a5fde8 ""
-  "/home/savoji/Desktop/resume/resume/resume.aux" 1580660818 1413 2c9f3e7afea1890ccf9454d844d1b56b ""
+  "/home/savoji/Documents/resume/resume/resume.aux" 1598450977 1514 ee93bcb1d2f1c1aaf173cc9d94556954 ""
+  "/home/savoji/Documents/resume/resume/resume.tex" 1598450975 23674 3e0f2c40291d96240115a0acbe700f39 ""
   "/usr/share/texlive/texmf-dist/fonts/enc/dvips/fontawesome/fontawesomeone.enc" 1480098667 1687 f004baecce60175c6453d0e3f808cf20 ""
   "/usr/share/texlive/texmf-dist/fonts/enc/dvips/fontawesome/fontawesometwo.enc" 1480098667 2679 32dd8ae231bf4a0752b98f62dc097183 ""
   "/usr/share/texlive/texmf-dist/fonts/map/fontname/texfonts.map" 1511824771 3332 103109f5612ad95229751940c61aada0 ""
@@ -197,14 +198,14 @@
   "/usr/share/texmf/web2c/texmf.cnf" 1520210507 32485 c64754543d8ac501bea6e75e209ea521 ""
   "/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map" 1566486478 2700761 ac0584cc9514ab21918550a6948c4ee2 ""
   "/var/lib/texmf/web2c/pdftex/pdflatex.fmt" 1566486502 4126524 c7ba586f7bcff3728f6f3763189f1b04 ""
-  "resume.aux" 1580660818 1413 2c9f3e7afea1890ccf9454d844d1b56b ""
-  "resume.out" 1580660818 1248 1e313e5fa6afcad87128d9d4b7067feb ""
-  "resume.tex" 1580660816 20257 f4d91406109521a29c97b019bf53633b ""
+  "resume.aux" 1598450977 1514 ee93bcb1d2f1c1aaf173cc9d94556954 ""
+  "resume.out" 1598450977 1505 607a561c6807a93dcf4f49c0ddf2f4a6 ""
+  "resume.tex" 1598450975 23674 3e0f2c40291d96240115a0acbe700f39 ""
   "resumepic.jpg" 1557379657 34774 d080479e32423ec37e534adbf7f006a3 ""
   (generated)
-  "resume.out"
-  "/home/savoji/Desktop/resume/resume/resume.log"
-  "resume.aux"
+  "/home/savoji/Documents/resume/resume/resume.log"
   "resume.log"
-  "/home/savoji/Desktop/resume/resume/resume.pdf"
+  "resume.out"
   "resume.pdf"
+  "resume.aux"
+  "/home/savoji/Documents/resume/resume/resume.pdf"
