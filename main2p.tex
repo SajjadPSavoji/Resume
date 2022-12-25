@@ -1,0 +1,509 @@
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% "ModernCV" CV and Cover Letter
+% LaTeX Template
+% Version 1.11 (19/6/14)
+%
+% This template has been downloaded from:
+% http://www.LaTeXTemplates.com
+%
+% Original author:
+% Xavier Danaux (xdanaux@gmail.com)
+%
+% License:
+% CC BY-NC-SA 3.0 (http://creativecommons.org/licenses/by-nc-sa/3.0/)
+%
+% Important note:
+% This template requires the moderncv.cls and .sty files to be in the same 
+% directory as this .tex file. These files provide the resume style and themes 
+% used for structuring the document.
+%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+%----------------------------------------------------------------------------------------
+%	PACKAGES AND OTHER DOCUMENT CONFIGURATIONS
+%----------------------------------------------------------------------------------------
+
+\documentclass[11pt,a4paper,sans]{moderncv} % Font sizes: 10, 11, or 12; paper sizes: a4paper, letterpaper, a5paper, legalpaper, executivepaper or landscape; font families: sans or roman
+
+\moderncvstyle{classic} % CV theme - options include: 'casual' (default), 'classic', 'oldstyle' and 'banking'
+\moderncvcolor{grey} % CV color - options include: 'blue' (default), 'orange', 'green', 'red', 'purple', 'grey' and 'black'
+
+\usepackage{lipsum} % Used for inserting dummy 'Lorem ipsum' text into the template
+\usepackage{fontawesome}
+\usepackage[scale=.85]{geometry} % Reduce document margins
+\setlength{\hintscolumnwidth}{2.5cm} % Uncomment to change the width of the dates column
+% \setlength{\makecvtitlenamewidth}{10cm} % For the 'classic' style, uncomment to adjust the width of the space allocated to your name
+
+%----------------------------------------------------------------------------------------
+%	NAME AND CONTACT INFORMATION SECTION
+%----------------------------------------------------------------------------------------
+\usepackage{tikz}
+
+\usepackage{mathptmx}
+\usepackage[11pt]{moresize}
+\usepackage{xcolor}
+
+\sectionfont{\color{cyan}}
+
+\colorlet{H2Color}{teal!50!black}
+\colorlet{L1Color}{teal!50!black}
+\colorlet{L2Color}{teal!50!black}
+\colorlet{E2Color}{black}
+\colorlet{E3Color}{darkgray!50!gray}
+
+\renewcommand{\section}[1]{
+    \vspace*{1.0\baselineskip}
+    \textcolor{H2Color}{{\Large #1}} \smallskip
+    \textcolor{L1Color}{\hrule} \smallskip
+    \textcolor{L1Color}{\hrule} \medskip
+}
+
+
+\newcommand{\SectionTight}[1]{
+    \bigskip
+    \textcolor{H2Color}{{\Large #1}} \smallskip
+    \textcolor{L1Color}{\hrule} \smallskip
+    \textcolor{L1Color}{\hrule} \medskip
+}
+
+
+\newcommand{\mycventry}[3]{
+    \cventry{#1}{\mdseries \textcolor{E2Color}{#2}}{}{}{}{\textcolor{E3Color}{#3}} \smallskip      
+
+}
+
+
+\firstname{Sajjad} % Your first name
+\familyname{Pakdamansavoji} % Your last name
+
+% All information in this block is optional, comment out any lines you don't need
+
+
+% \address{}{Tehran, Iran}
+% \mobile{+98 - 9195919545}
+% \email{sj.pakdaman.edu@gmail.com}
+% \social[linkedin]{sajjad-pakdaman-savoji-9672221b6}
+% \social[github]{sajjadpsavoji}
+
+
+
+
+
+% \github{github.com/sajjadpsavoji} 
+
+%%\extrainfo{
+%%  \httplink{https://www.codechef.com/users/priyanka_pps}
+%%\homepage{https://github.com/priyankapps/} {https://github.com/priyankapps/}}
+
+
+
+
+
+
+\begin{document}
+\begin{center}
+    \Huge
+    Sajjad Pakdamansavoji
+\end{center}
+\begin{center}
+    \small
+    \begin{tabular}{ c | c | c | c}
+        \, \faMobile\enspace +1-647-835-6679 \, &  \, \href{mailto:savoji@yorku.ca}{\faEnvelopeO\enspace savoji@yorku.ca} \, & \,  \href{https://github.com/sajjadpsavoji}{\faGithub\enspace sajjadpsavoji} \, & \,  \href{https://www.linkedin.com/in/sajjad-pakdaman-savoji-9672221b6/}{\faLinkedin\enspace sajjad pakdaman savoji} \,  \\  
+    \end{tabular}
+\end{center}
+
+% \makecvtitle 
+%----------------------------------------------------------------------------------------
+%	EDUCATION SECTION
+%----------------------------------------------------------------------------------------
+
+\SectionTight{EDUCATION}
+\mycventry{2021--2023}{MSc in Computer Science, York University}{GPA: 8.66/9 \qquad Supervised by Professor \href{https://www.elderlab.yorku.ca/jelder/}{James Elder}}
+\mycventry{2016--2021}{BSc in Electrical Engineering, University of Tehran}{GPA: 3.77/4 \qquad Supervised by Assoc.Prof. \href{https://ece.ut.ac.ir/en/~akalhor}{Ahmad Kalhor}}
+\mycventry{2018--2020}{Minor Degree in Computer Engineering, University of Tehran}{GPA: 18.2/20\qquad Ranked $2^{nd}$}
+% \mycventry{2012--2016}{Diploma in Mathematics and Physics, NODET Allameh Helli 8 Branch}{National Organization for Development of Exceptional Talents \\ GPA: 19.73/20}
+
+
+%----------------------------------------------------------------------------------------
+%	AWARDS SECTION
+%------------   ----------------------------------------------------------------------------
+\section{AWARDS AND ACHIEVEMENTS}
+{
+    \cvitem{Sep 2022}{VISTA Graduate Scholarship, Vision: Science to Application (2 times)}
+    \cvitem{Apr 2021}{Vector Scholarship in AI, Vector Institute}
+    \cvitem{Jun 2021}{Lassonde Entrance Scholarship, York University}
+    % \cvitem{May 2021}{VISTA Graduate Scholarship, Vision: Science to Application}
+\cvitem{Jan 2018}{Supporter Foundation of University of Tehran Scholorship}
+% \cvitem{Oct 2017}{Ranked $93^{th}$ worldwide in IEEEXtreme 11.0 amongst 2121 teams}
+% \cvitem{Nov 2017}{Silver medal in basketball competitions, $16^{th}$ student sport festival, University of Tehran}
+% \cvitem{Nov 2016}{Gold medal in basketball competitions, $15^{th}$ student sport festival, University of Tehran}
+% \cvitem{Jul 2016}{Ranked 600th in Iranian University Entrance Exam among 162879 participants(top 0.36\%)}
+% \cvitem{Nov 2011}{Gold medal in basketball competitions, city of Tehran's inter-secondary school sport festival}
+\par}
+% \mycventry{Nov 2017}{Silver medal in basketball competitions, $16^{th}$ student sport festival, University of Tehran}{}
+% \mycventry{Nov 2016}{Gold medal in basketball competitions, $15^{th}$ student sport festival, University of Tehran}{}
+% \mycventry{Jul 2016}{Placed among top $0.36 \%$ high school students in Iran National University Entrance Exam}{}
+% \mycventry{Nov 2011}{Gold medal in basketball competitions, city of Tehran's inter-secondary school sport festival}{}
+
+% \SectionTight{INTERESTS}
+% {\small
+% Artificial Intelligence, Deep Learning, Machine Learning, Computer Vision, Natural Language Processing, Generative Models
+% }
+
+%----------------------------------------------------------------------------------------
+%	Experience 
+%----------------------------------------------------------------------------------------
+
+\SectionTight{WORK EXPERIENCE}
+% \mycventry{Jun'21--Jun'22}{Committee Member, CUPE Toronto District Council}{Elected as the CUPE local 3903 representative in this council}
+% \mycventry{Jul'19--Sep'20}{Strategic Advisor, IEEE University of Tehran Student Branch}{Provided branch's executive committee with decisive advice and support}
+\mycventry{Apr'20--Jun'20}{Data Science Mentor, Amirkabir University of Technology}
+{
+    - Prepared course materials on python, ML,and Data Sience\\ 
+    - Held tutorial sessions and QA meetings
+}
+\mycventry{Nov'19--Jan'20}{Machine Learning Mentor, IEEE UTSB Data Science Winter School}
+{
+    - Held hands-on sessions on how to use sci-kit learn library\\
+    - Held hands-on session on sci-py and statistical inference
+}
+\mycventry{Jul'19--Sep'19}{Deep Learning Intern, AVIR Company}
+{
+   - Implemeted hand detection and gesture prediction using YOLO and DeepSort
+}
+\mycventry{Jul'18--Jul'19}{Vice chair, IEEE UT Student Branch}{- Organized the student branch's different sections and managed the exec team}
+% \mycventry{Jul'18--Aug'18}{IoT Academy $4^{th}$ Summer School, University of Tehran Science \& Technology Park}{With subject of "Internet of Things Rapid Prototyping from A to Z"}
+\section{RESEARCH EXPERIENCE}
+\mycventry{Sep'21--Aug'23}{RA, Center of Vision Research (CVR), York University}
+    {
+        Leveraged SOTA multiple object detection and tracking on private surveillance footage to \\
+        - Localize the groundplane location of vehicles using calibrated cameras \\
+        - Improved turn-counts estimation error from 20\% to 3\%
+    }
+\mycventry{Sep'20--Jul'21}{RA, Machine Learning Lab, University of Tehran}
+    {
+        Manifold learning on the CIFAR10 dataset using ResNet50 backbone and contrastive loss\\
+        Per-layer feature seprability analysis of ResNet using Seperation Index(our novel metric)
+        % supervisor: \href{https://ece.ut.ac.ir/en/~akalhor}{Ahmad Kalhor}, Assoc.Prof.  
+    }
+\mycventry{Sep'19--Sep'20}{RA, Computer Networks Lab, University of Tehran}
+    {
+        Predicted future packet-type for each user in a local network\\
+        - Classified packet-type using deep packet inspection (DPI) tools\\
+        - Forcasted user behaviour using recurrent neural networks(RNN) and LSTMs
+        % supervisor: \href{https://ece.ut.ac.ir/en/~vmansouri}{Vahid Shahmansouri}, Asst.Prof.  
+    }
+\mycventry{Jul'19--Sep'19}{Research Intern, Secure Communication Lab, University of Tehran}
+    {
+        Iranian Sign Language (ISL) translation from visual footage to text\\
+        - Extracted key-point features from hand and face gestures \\
+        - Translated word-level feature sequences using RNNs and LSTMs
+        % supervisor: \href{https://ece.ut.ac.ir/en/~akhaee}{Mohammad Ali Akhaee},  Asst.Prof. 
+    }
+
+
+
+%----------------------------------------------------------------------------------------
+%	Skills SECTION
+%----------------------------------------------------------------------------------------
+\SectionTight{TECHNICAL SKILLS}
+\renewcommand{\listitemsymbol}{-~}
+{\small
+\cvitem{Languages}{Python{\tiny(advance)}, C++{\tiny(advance)}, C{\tiny(intermediate)}}
+\cvitem{Tools}{Tensorflow, Keras, Pytorch, Scikit-learn, Numpy, Pandas, OpenCV, Jupyter, MATLAB, JAX}
+% \cvitem{Softwares}{MATLAB, \LaTeX, Office programs, Quartus, NI Multisim, Codevision, Proteus}
+% \cvitem{Digital Devices}{AVR ATmeg series, Raspberry Pi3, Arduino}
+\cvitem{OS.s}{Linux, Windows, macOS}}
+
+
+%----------------------------------------------------------------------------------------
+%	Masters SECTION
+%----------------------------------------------------------------------------------------
+
+%\section{Masters Thesis}
+
+%\cvitem{Title}{\emph{Technologies and characterization of ferroelectric polymers for biomedical sensors}}
+%\cvitem{Supervisors}{Professor Antonino Fiorillo}
+%\cvitem{Description}{This thesis is based on the implementation of a temperature sensor.}
+
+%----------------------------------------------------------------------------------------
+%	WORK EXPERIENCE SECTION
+%----------------------------------------------------------------------------------------
+\SectionTight{PROJECTS}
+% \mycventry{October'19}{\href{https://github.com/SajjadPSavoji/analog_modulatio_am_dsb_ssb}{Analog Communication Simulator}}{Implemented transmitter and receiver for several analog modulations such as AM, DSB, LSSB, USSB, PM and FM}
+% \mycventry{August'20}{\href{https://github.com/SajjadPSavoji/sdn_routing}{Shortest-Path Routing in Software Defined Networks}}{Implemented Dijkstra algorithm using Ryu controller and Mininet}
+% \mycventry{July'20}{\href{https://github.com/SajjadPSavoji/gnutella_p2p}{Gnutella}}{From scratch implementation of a peer-to-peer network scheme inspired by Gnutella}
+% \mycventry{June'20}{\href{https://github.com/SajjadPSavoji/tcp-congestion-control-in-ns2}{TCP Congestion Control}}{Illustrated congestion control mechanism using NS2}
+% \mycventry{May'20}{\href{https://github.com/SajjadPSavoji/FTP_Server}{File Transfer Protocol Server}}{From scratch Object Oriented based implementation of a FTP server}
+\mycventry{Jun'22}{\href{}{Traffic Flow Analysis at Intersections}}{
+    - remove non-linear distortion from wide-angle surveillance camera\\
+    - perform multi-object detection and multi-object tracking on image plane\\
+    - back-project tracks into ground plane and extract data such as turn counts
+}
+\mycventry{Dec'21}{\href{}{Celebrity Face Synthesis}}{
+    - trained Real-Valued Non-Volume Preserving Normalizing Flow to generate faces\\
+    - trained Deep Convolotional Generative Adversarial Networks to generate faces\\
+    - trained Variational Auto Encoders with Convolutional layers to generate faces
+}
+
+\mycventry{Nov'21}{\href{}{Sentiment Analysis of twits using Neural Language Models}}{
+    - used N-gram and Bag-Of-Words models for hate speech detection\\
+    - used Bidirectional Encoder Representations from Transformers(BERT) for hate speech detection\\
+    - used Generalized Autoregressive Pretraining (XLnet) for hate speech detection
+}
+
+\mycventry{July'21}{\href{}{Machine Translation Using Transformers}}{applying transformer-based models(BERT) for English to Persion translation}
+\mycventry{Feb'21}{\href{}{Sentence Generation}}{applying LSTM-based Language model for auto-regressive sentence generation}
+\mycventry{Nov'20}{\href{}{Generative Models for Natural Scene Synthesis}}{
+    - trained Deep Convolutional GAN (DCGAN) for image generation from CFAR10\\
+    - trained Deep Conditional GAN (CGAN) for image generation from CFAR10\\
+    - trained Deep Auxiliary Classifier GAN (AC-GAN) for image generation from CFAR10
+}
+% \mycventry{April'21}{\href{}{Sentiment Analysis with BERT and XLNet}}{Used transformer-based embedding to detect hate speech}
+% \mycventry{Murch'21}{\href{}{Sentence Classification with Ngrams}}{Used perplexity of an interpolated unigram-bigram language model for classification}
+% \mycventry{June'20}{\href{https://github.com/SajjadPSavoji/Twitter-Sentiment-Analysis-HMM}{Twitter Sentiment Analysis}}{Used Hidden Markov Model to formulate a classifier on twits}
+% \mycventry{September'20}{\href{https://github.com/SajjadPSavoji/Auxiliary-Classifier-GAN}{Auxiliary Classifier Generative Adversarial Network (ACGAN)}}{Implemented an ACGAN using Keras on CIFAR10 dataset}
+% \mycventry{August'20}{\href{https://github.com/SajjadPSavoji/Conditional-GAN}{Conditional Generative Adversarial Network (CGAN)}}{Implemented a CGAN using Keras on CIFAR10 dataset}
+% \mycventry{December'19}{\href{https://github.com/SajjadPSavoji/nlp_naive_bayes}{Poem Classification}}{Used NLP methods such as bag-of-words to develop a bayes classifier for poetry}
+% \mycventry{July'20}{\href{https://github.com/SajjadPSavoji/Deep-Convolutional-GAN}{Deep Convolutional Generative Adversarial Network (DCGAN)}}{Implemented a DCGAN using Keras on CIFAR10 dataset}
+% \mycventry{June'20}{\href{https://github.com/SajjadPSavoji/Variational-Auto-Encoder}{Variational Auto Encoder (VAE)}}{Used Kullback-Leibler Divergance cost to tarin a VAE on MNIST dataset}
+% \mycventry{June'20}{\href{https://github.com/SajjadPSavoji/Digital_Communication_Lab}{Digital Communication Simulator}}{Implemented transmitter and receiver for several digital modulations such as pam, psk, fsk, etc all of which support differentiation coding and pulse-shape selection}
+% \mycventry{May'20}{\href{https://github.com/SajjadPSavoji/Pollution-Predicttion}{Pollution Prediction}}{Implemented several recurrent networks using different cells such as LSTM and GRU}
+\mycventry{May'20}{\href{https://github.com/SajjadPSavoji/German-Traffic-Sign-Recognition-Benchmark}{German Traffic Sign Recognition Benchmark}}{Used deep convolutional NNs to classify traffic signs used in germany}
+% \mycventry{July'20}{\href{https://github.com/SajjadPSavoji/DBSCAN-vs-Kmeans}{DBSCAN vs Kmeans}}{A rough comparison between two clustering algorithms and the advantages DBSCAN provides}
+% \mycventry{July'20}{\href{https://github.com/SajjadPSavoji/bbox-clustering}{Boundary Box clustering}}{Performed Kmeans clustering on PASCAL VOC dataset with IOU distance}
+% \mycventry{July'20}{\href{https://github.com/SajjadPSavoji/Image-Compression-Kmeans}{Image Compression}}{Used Kmeans clustering to substitute centroids with corresponding pixels}
+% \mycventry{April'20}{\href{https://github.com/SajjadPSavoji/Mechanism-Based-Neural-Nerworks}{Mechanism Based Neural Networks}}{Implemented some basic mechanism based NNs like SOM, MaxNet, MexicanHat and Hamming Net}
+% \mycventry{April'20}{\href{https://github.com/SajjadPSavoji/Memory-Associative-Networks}{Memory Associative Neural Networks}}{From scratch implementation of Auto-associative, Iterative Auto-associative and Hetro-associative nets}
+\mycventry{Murch'20}{\href{https://github.com/SajjadPSavoji/SeperationIndex_for_CNN}{Separation Index trends in Fully Convolutional Networks}}{Computed published separation metrics to examine feature flow through layers of CNNs}
+% \mycventry{March'20}{\href{https://github.com/SajjadPSavoji/Madeline_MLP}{Many Adaptive Linear Neuron (MADALINE)}}{From scratch implementation of ADALINE and MADALINE}
+% \mycventry{February'20}{\href{https://github.com/SajjadPSavoji/Character_Classifer_MLP}{Multi Layer Perceptron (MLP)}}{From scratch implementation of MLP to classify written characters}
+% \mycventry{September'19}{\href{https://github.com/SajjadPSavoji/American_Sign_Language}{American Sign Language Translation}}{Combined CNNs and RNNs alongside to develop an alphabet-level language translator}
+% \mycventry{August'19}{\href{https://github.com/SajjadPSavoji/Object_Localization}{Localize Fish Instances on the Boat}}{implemented YOLO2 network to localize fishes while specifying their breeds}
+% \mycventry{July'19}{\href{https://github.com/SajjadPSavoji/HumpbackWhale_Identification}{Humpback Whale Identification}}{Used CNNs to develope an identification system based-on whales' tails}
+% \mycventry{June'19}{\href{https://github.com/SajjadPSavoji/speech_identification}{Speech Identification in MEL Spectrum}}{studied the effect of MEL transformation on speech identification with NNs}
+% \mycventry{June'19}{\href{https://github.com/SajjadPSavoji/FaceRecognition}{Face Recognition}}{Used the siamese network alongside with triple-loss cost function on AT\&T dataset}
+% \mycventry{October'19}{\href{https://github.com/SajjadPSavoji/SVM}{Retail Classification}}{A kernelized support vector machine was used to address the problem}
+% \mycventry{October'19}{\href{https://github.com/SajjadPSavoji/PCA_LDA}{Principal component analysis (PCA)}}{From scratch implementation of PCA scheme for dimension reduction}
+% \mycventry{October'19}{\href{https://github.com/SajjadPSavoji/PCA_LDA}{Linear discriminant analysis (LDA)}}{From scratch implementation of LDA scheme for dimension reduction}
+% \mycventry{November'19}{\href{https://github.com/SajjadPSavoji/parzen_window}{Parzen window}}{One of the major non-parametric pdf estimation methods used in a bayes optimal classifier}
+% \mycventry{November'19}{\href{https://github.com/SajjadPSavoji/random_forest}{Random Forest}}{Used boosting and bagging to develope Random Forest model from predefined Decision Tree classifier }
+% \mycventry{December'19}{\href{https://github.com/SajjadPSavoji/minimax}{MiniMax}}{Implemented the minimax adversarial approach for a sample zero-mean game}
+% \mycventry{December'19}{\href{https://github.com/SajjadPSavoji/pacman}{Pacman}}{Used heuristic based agents as the back logic for Pacman game}
+
+
+% \mycventry{September'18}{\href{https://github.com/SajjadPSavoji/AP_Drive}{AP Drive}}{A File Hosting Service inspired by Drop Box using C++ with a web based GUI}
+% \mycventry{October'18}{\href{https://github.com/SajjadPSavoji/Mafia}{Mafia Game}}{A CLI based game designed according to OO paradigm using C++}
+% \mycventry{November'18}{\href{https://github.com/SajjadPSavoji/OnlineStore}{Online Store}}{Object Oriented modeling a virtual store to manage trades and transactions of goods using C++}
+% \mycventry{December'18}{\href{https://github.com/SajjadPSavoji/kingdomrush}{Kingdom Rush}}{A tower-defense game implemented by Simple DirectMedia Layer(SDL) graphical library using C++}
+
+% \mycventry{September'19}{\href{https://github.com/SajjadPSavoji/synchronization_using_mutex_locks}{Synchronization by Mutex Lock}}{An object oriented implementation to synchronize multiple processes}
+% \mycventry{October'19}{\href{https://github.com/SajjadPSavoji/multiprocess_ensemble_learning}{Multiprocess ensemble learning}}{Used multiprocessing to implement ensemble linear classifiers}
+% \mycventry{November'19}{\href{https://github.com/SajjadPSavoji/xv6}{XV6}}{Added several features to the original XV6 operating system designed in MIT, such as paging, reentrance locks, new system-calls and new scheduling schemes}
+% \mycventry{December'19}{\href{https://github.com/SajjadPSavoji/client-server_and_P2P_communication-}{Hybrid File Sharing}}{Implemented a file sharing application that supports both client-server and peer-2-peer methods}
+
+
+%----------------------------------------------------------------------------------------
+%	Teaching Experience section
+%----------------------------------------------------------------------------------------
+\section{TEACHING ASSISTANT EXPERIENCES}
+\mycventry{Sep'22--Dec'22}{Design and Analysis of algorithms, York University}
+{
+    - held in-person tutorials and graded assignments 
+    % \emph{Instructor:} \href{https://scholar.google.com/citations?user=hQXlVLsAAAAJ}{\underline{Shahin Kamali}, Assist.Prof, York University}
+}
+\mycventry{Sep'20--Dec'22\\\textbf{\footnotesize graduate course}}{Neural Networks and Deep Learning (4 semesters), University of Tehran}
+{
+    - designed the final project regarding Generative Adversarial Networks
+    % \emph{Instructor:} \href{https://scholar.google.com/citations?hl=en&user=m7xdmMgAAAAJ}{\underline{Ahmad Kalhor}, Assoc.Prof, University of Tehran}
+}
+\mycventry{Jan'22--Apr'22\\\textbf{\footnotesize graduate course}}{Data Mining, York University}
+{
+    - graded projects, assignment, and exams
+    % \emph{Instructor:} \href{https://www.researchgate.net/profile/Habib-Ur-Rehman-14}{\underline{Habib-ur Rehman}, Adjunct Prof, McMaster University}
+}
+\mycventry{Sep'21--Nov'21}{Software Tools, York University}
+{
+    - held hands-on sessions and grading projects
+    % \emph{Instructor:} \href{https://ca.linkedin.com/in/huiwang0123}{\underline{Hui Wang}, Reasearch Assoc, York University}
+}
+\mycventry{Sep'20--Feb'21\\\textbf{\footnotesize graduate course}}{Machine Learning (2 semesters), University of Tehran}
+{
+    - held hands-on session, designed assignments
+    % \emph{Instructor:} \href{https://scholar.google.com/citations?hl=en&user=FTcata0AAAAJ}{\underline{Babak Nadjar Araabi}, Prof, University of Tehran}
+}
+% \mycventry{Feb'20--Jun'20}{Teaching assistant for Pattern Recognition \textbf{(graduate-level course)}}{Held hands-on session, designed 2 homeworks and marked them, designed 3 quizzes and marked them, graded their final project, suggested questions for midterm and final exam}
+% \mycventry{Feb'20--Jun'20\\\textbf{\footnotesize graduate course}}{Pattern Recognition, University of Tehran}
+% {
+%     - held hands-on session, designed 2 homeworks and 3 quizzes
+%     % \emph{Instructor:} \href{https://ece.ut.ac.ir/en/~dehaqani}{\underline{Mohammadreza Abolghasemi}, Asst.Prof,  University of Tehran}
+% }
+\mycventry{Sep'20--Feb'21}{Intelligent systems, University of Tehran}
+{
+    - designed 6 final projects and marked them, individual assessment
+    % \emph{Instructor:} \href{https://scholar.google.com/citations?user=zqa4EY0AAAAJ&hl=en}{\underline{Reshad Hoseini}, Asst.Prof, University of Tehran}
+}
+% \mycventry{Feb'20--Feb'21\\\textbf{\footnotesize graduate course}}{Digital Signal Processing (3 semesters), University of Tehran}
+% {
+%     - designed 4 CAs, one analytical assignment and organized other TAs
+%     % \emph{Instructor:} \href{https://scholar.google.com/citations?hl=en&user=Yqzkf3UAAAAJ}{\underline{Hadi Amiri}, Asst.Prof, University of Tehran}\\
+%     % \emph{Instructor:} \href{https://scholar.google.com/citations?user=VspDmN8AAAAJ&hl=en}{\underline{Majid Badieirostami}, Asst.Prof, University of Tehran}\\
+%     % \emph{Instructor:} \href{https://scholar.google.com/citations?user=atXIykYAAAAJ&hl=en}{\underline{Mohammadali Akhaee}, Asst.Prof, University of Tehran}
+% }
+% \mycventry{Feb'20--Jun'20}{Teaching assistant for Digital Signal Processing}{Desinged 2 computer assignments and a homework}
+% \mycventry{Sep'19--Feb'21}{TA, Communication Systems I (3 semesters), University of Tehran}
+% {
+%     \emph{Obligation:} designed 4 homeworks all of which include implementation part and 4 CAs, assessed students
+%     % \emph{Instructor:} \href{https://scholar.google.com/citations?user=fCts8c0AAAAJ&hl=en}{\underline{Maryam Sabaghian}, Asst.Prof, University of Tehran}\\
+%     % \emph{Instructor:} \href{https://scholar.google.com/citations?hl=en&user=Yqzkf3UAAAAJ}{\underline{Hadi Amiri}, Asst.Prof, University of Tehran}
+% }
+
+% \mycventry{Feb'20--Jun'20}{Teaching assistant for Communication Systems I}{Desined a computer assignment, assesed their performance via interview sessions}
+% \mycventry{Sep'19--Feb'20}{Teaching assistant for Communication Systems I}{Desined 3 computer assignments, assesed their programming skills individually}
+
+\mycventry{Feb'19--Feb'20}{Engineering Probability and Statistics (2 semesters), University of Tehran}
+{
+    - designed homeworks and computer assignments, held Q\&A session
+    % \emph{Instructor:} \href{https://ece.ut.ac.ir/en/~dehaqani}{\underline{Mohammadreza Abolghasemi}, Asst.Prof, University of Tehran}
+}
+% \mycventry{Feb'19--Jun'19}{Teaching assistant for Engineering Probability and Statistics}{Designed homeworks, held Q\&A session, marked their homeworks}
+% \mycventry{Feb'19--Jun'19}{TA, Electronics I}
+% {
+%     \emph{Obligation:} marked student's homeworks, mentored them in the problem-solving procedure\\
+%     \emph{Instructor:} \href{https://scholar.google.com/citations?hl=en&user=T7fVw08AAAAJ}{\underline{Mohammadreza Kolahdooz}, Asst.Prof, University of Tehran}
+% }
+
+
+
+
+
+
+%------------------------------------------------
+%----------------------------------------------------------------------------------------
+%	certification and workshops
+%----------------------------------------------------------------------------------------
+% \section{CERTIFICATES}
+% {\small
+% \renewcommand{\listitemsymbol}{-~} % Changes the symbol used for lists
+
+% \cvitem{January 2022}{\href{https://www.coursera.org/account/accomplishments/certificate/XC3RQE34YAXS}{Build Better Generative Adversarial Networks (GANs), Coursera Credential: XC3RQE34YAXS}}
+% \cvitem{January 2022}{\href{https://www.coursera.org/account/accomplishments/certificate/J4YEGV3VWSQ3}{Sample-based Learning Methods, Coursera Credential: J4YEGV3VWSQ3}}
+% \cvitem{Novermber 2021}{\href{https://www.coursera.org/account/accomplishments/certificate/B9M4EX5HRXG3}{Build Basic Generative Adversarial Networks (GANs), Coursera Credential: B9M4EX5HRXG3}}
+% \cvitem{October 2021}{\href{https://www.coursera.org/account/accomplishments/certificate/DMPL7YR2KURX}{Fundamentals of Reinforcement Learning, Coursera Credential: DMPL7YR2KURX}}
+% \cvitem{Oct 18 - Oct 20}{Ambassador for IEEEXtreme 12.0, 13.0, and 14.0 Programming Competition}
+% \cvitem{January 2020}{Contributed as a Statistical Inference Instructor in IEEEUTSB Data Science Winter School}
+% \cvitem{February 2019}{Participated in the international workshop on "signal proccessing" held in Sharif University of Technology}
+% \cvitem{April 2019}{Ambassador for IEEEmadC Competition}
+% \cvitem{October 2019}{Contibuted as an Ambassador in IEEEXtreme 13.0 Programming Competition}
+% \cvitem{August 2018}{Attended IoT Academy $4^{th}$ Summer School}
+% \cvitem{October 2018}{Contibuted as an Ambassador in IEEEXtreme 12.0 Programming Competition}
+% \cvitem{September 2017}{Attended MATLAB programming course, held by IEEEUTSB}
+% \cvitem{May 2017}{Attended AVR Microcontroller course, held by IEEEUTSB}
+% \par}
+
+% \section{Volunteering}
+% {\small
+% \renewcommand{\listitemsymbol}{-~} % Changes the symbol used for lists
+% \cvitem{Dec 21 - Dec 22}{Student representative, Vector Institute for Artificial Intelligence}
+% \cvitem{Apr 19 - Apr 20}{Ambassador for IEEEmadC Competition}
+% \cvitem{Oct 18 - Oct 20}{Ambassador for IEEEXtreme Programming Competition (12.0, 13.0, and 14.0)}
+% \par}
+
+
+%\section{Major Courses Undertaken}
+
+%\renewcommand{\listitemsymbol}{-~} % Changes the symbol used for lists
+%{\small
+%\cvitem{Computer Science}{ Computer Graphics and Multimedia, Artificial Intelligence, Design and Analysis of Algorithms, Theory of Computation, Operating Systems, Programming Languages, Database Management System, Computer Architecture, Discrete Mathematics, Data Structures.
+%}
+
+%\cvitem{Mathematics}{ Statistical Methods, Probability, Differential Calculus, Linear Algebra, Matrix Theory, Complex Analysis, Vector Calculus.
+%}
+%\par}
+
+%----------------------------------------------------------------------------------------
+%	Coursework SECTION
+%----------------------------------------------------------------------------------------
+
+
+%----------------------------------------------------------------------------------------
+%	COMMUNICATION SKILLS SECTION
+%----------------------------------------------------------------------------------------
+
+    %\section{Communication Skills}
+
+    %\cvitem{2010}{Oral Presentation at the California Business Conference}
+    %\cvitem{2009}{Poster at the Annual Business Conference in Oregon}
+
+    %----------------------------------------------------------------------------------------
+    %	LANGUAGES SECTION
+    %----------------------------------------------------------------------------------------
+%     \section{LANGUAGES}
+
+%     \cvitemwithcomment{English}{Professional Profiency {\footnotesize{(IELTS 8.0)}}}{}
+% \cvitemwithcomment{Persian/Farsi}{Native}{}
+%----------------------------------------------------------------------------------------
+%	INTERESTS SECTION
+%----------------------------------------------------------------------------------------
+%  \section{REFERENCES}
+%     \begin{minipage}[t]{0.33 \textwidth}
+%         \footnotesize
+%         \href{https://ece.ut.ac.ir/en/~akalhor}{\textbf{Ahmad Kalhor}
+%         }\\
+%         Assoc. Professor\\
+%         University of Tehran\\
+%         Deep Learning\\
+%         \href{mailto:akalhor@ut.ac.ir}{{\tiny \faEnvelopeO} akalhor@ut.ac.ir}
+%     \end{minipage}
+%     \begin{minipage}[t]{0.33 \textwidth}
+%         \footnotesize
+%         \href{https://ece.ut.ac.ir/en/~reshad.hosseini}{\textbf{reshad hosseini}
+%         }\\
+%         Asst. Professor\\
+%         University of Tehran\\
+%         Machine Intelligence and Robotics\\
+%         \href{mailto:reshad.hosseini@ut.ac.ir}{{\tiny \faEnvelopeO} reshad.hosseini@ut.ac.ir}
+%     \end{minipage}
+%     \begin{minipage}[t]{0.33 \textwidth}
+%         \footnotesize
+%         \href{https://ece.ut.ac.ir/en/~dehaqani}{\textbf{Mohammadreza Abolghasemi}
+%         }\\
+%         Asst. Professor\\
+%         University of Tehran\\ 
+%         Machine Intelligence and Robotics\\
+%         \href{mailto:dehaqani@ut.ac.ir}{{\tiny \faEnvelopeO} dehaqani@ut.ac.ir}
+%     \end{minipage}
+
+
+% \section{Interests}
+
+% \renewcommand{\listitemsymbol}{-~} % Changes the symbol used for lists
+% \cvlistdoubleitem{Piano}{}
+% \cvlistitem{Baseball}
+
+%----------------------------------------------------------------------------------------
+%	COVER LETTER
+%----------------------------------------------------------------------------------------
+
+% To remove the cover letter, comment out this entire block
+
+%\clearpage
+
+%\recipient{HR Department}{Corporation\\123 Pleasant Lane\\12345 City, State} % Letter recipient
+%\date{\today} % Letter date
+%\opening{Dear Sir or Madam,} % Opening greeting
+%\closing{Sincerely yours,} % Closing phrase
+%\enclosure[Attached]{curriculum vit\ae{}} % List of enclosed documents
+
+%\makelettertitle % Print letter title
+
+%\lipsum[1-3] % Dummy text
+
+%\makeletterclosing % Print letter signature
+
+%----------------------------------------------------------------------------------------
+
+\end{document}
+
+
+
